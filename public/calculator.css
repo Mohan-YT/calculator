@@ -122,7 +122,7 @@ main{
 
 }
 }
-@media screen and (max-width:425px) {
+@media screen and (max-width:576px) {
     .calculator{
         max-height: 100vh;
         overflow: hidden;
@@ -138,14 +138,14 @@ main{
             font-size: 1.5em;
             padding: auto;
         }
-        .btn:focus{
+        .btn:focus,
+        .btn:active,
+        .btn:focus-visible{
             outline: none;
             border: none;
+            -webkit-tap-highlight-color: transparent;
         }
-        .btn:active{
-            outline: none;
-            border: none;
-        }
+        
         .e-btn{
             color: white;
             background-color: green;
@@ -201,7 +201,7 @@ main{
         }
     }
 }
-@media screen and (min-width: 426px) {
+@media screen and (min-width: 576px) {
     .calculator{
         .icons{
             justify-content: end !important;
