@@ -126,8 +126,8 @@ main{
     .calculator{
         
         .btn {
-            min-width: 2.2em;
-            min-height: 2.2em;
+            width: 1.8em;
+            height: 1.8em;
             border-radius: 50%;
             font-size: 1.5em;
             padding: auto;
