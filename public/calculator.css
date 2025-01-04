@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+main{
+    overflow: hidden;
+
+.calculator{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    padding-bottom: 5px;
+
+.display{
+    border: none;
+    text-align: end; 
+    height: 20vh; 
+    background-color: black;
+    font-size: 45px;
+    color: white;
+    padding-right: 15px;
+}
+.display:focus{
+    outline: none;
+    border: none;
+}
+.icons{
+    border-bottom: 1px solid gray;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons .btn-history,
+.icons .x-btn{
+    background-color:transparent;
+    border: none;
+    font-size: 22px;
+    color:rgb(119, 119, 119);
+    padding: 0 10px;
+}
+.x-btn{
+    color: green !important;
+}   
+.numbers{
+    display: grid;
+    grid-template-areas: 'btns-ac btns-ac btns-p btns-d'
+                                    'btns-7 btns-8 btns-9 btns-m'
+                                    'btns-4 btns-5 btns-6 btns-minus'
+                                    'btns-1 btns-2 btns-3 btns-plus'
+                                    'btns-dot btns-0 btns-0 btns-e';
+         
+    gap: 4px;
+    padding:5px;
+    margin-bottom: 5px;
+    height: 100%;
+}
+.btn-0{grid-area: btns-0;}
+.btn-1{grid-area: btns-1;}
+.btn-2{grid-area: btns-2;}
+.btn-3{grid-area: btns-3;}
+.btn-4{grid-area: btns-4;}
+.btn-5{grid-area: btns-5;}
+.btn-6{grid-area: btns-6;}
+.btn-7{grid-area: btns-7;}
+.btn-8{grid-area: btns-8;}
+.btn-9{grid-area: btns-9;}
+.btn-m{grid-area: btns-m;}
+.btn-ac{grid-area: btns-ac;}
+.btn-p{grid-area: btns-p;}
+.btn-d{grid-area: btns-d;}
+.btn-minus{grid-area: btns-minus;}
+.btn-plus{grid-area: btns-plus;}
+.btn-dot{grid-area: btns-dot;}
+.e-btn{grid-area: btns-e;}
+
+.n-btn{
+    color: white;
+    background-color: rgba(16, 16, 16, 0.712);
+    padding: 0 auto;
+}
+.o-btn{
+    color: green;
+    background-color: rgba(56, 55, 55, 0.795);
+}
+.c-btn{
+    color: red;
+}
+.number-pad{
+    width: 100%;
+    height: 72vh;
+}
+.history-body div{
+    margin-bottom: 15px;
+}
+.history-body p{
+    color: gray;
+    font-size: 14px;
+    margin: 0;
+}
+.history-body h5{
+    color: green;
+    margin-left: 10px;
+}
+
+.history-body::-webkit-scrollbar{
+    width: 3px;
+}
+.history-body::-webkit-scrollbar-thumb{
+    background-color:#303030;
+}
+.history-body::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+    
+
+}
+}
+@media screen and (max-width:768px) {
+    .calculator{
+        
+        .btn {
+            min-width: 2.5em;
+            min-height: 2.5em;
+            border-radius: 50%;
+            font-size: 1.5em;
+            padding: auto;
+        }
+        .e-btn{
+            color: white;
+            background-color: green;
+            border-radius: 50%;
+        }
+        .btn-0{
+            border-radius: 50px !important;
+        }
+        .btn-ac{
+            background-color: rgba(56, 55, 55, 0.795);
+            border-radius: 50px !important;
+        }
+        .number-pad {
+            position: relative;
+            width: 100%;
+            height: 70vh;
+        }
+        .history {
+            position: absolute;
+            background-color: black;
+            color: white;
+            width: 75%;
+            height: 100%;
+            top: 0;
+            left: -100%;
+            border-right: 1px solid rgb(53, 53, 53);
+            transition: left 0.4s ease;
+        }
+        .history h6{
+            margin: 10px 15px;
+        }
+        .history-body {
+            height: 73%;
+            width: 100%;
+            overflow: auto;
+            margin-bottom: 15px;
+            padding: 10px 0 10px 10px;
+            line-height: 16px;
+        }
+        .trash {
+            font-size: 26px;
+            color: black;
+            padding-bottom: 10px;
+        }
+        .trash i {
+            background-color: #303030;
+            padding: 5px 10px;
+            border-radius: 50%;
+            position: sticky;
+            left: 32%;
+            bottom: 0;
+            color: rgba(245, 245, 245, 0.829);
+        }
+    }
+}
+@media screen and (min-width: 768px) {
+    .calculator{
+        .icons{
+            justify-content: end !important;
+        }
+        .icons button i{
+            font-size: 1.7em;
+        }
+        .btn {
+            border-radius: 10px;
+            min-width: 2em;
+            min-height: 2em;
+            font-size: 2em;
+        }
+        .e-btn{
+            color: white;
+            background-color: green;
+            border-radius:10px;
+        }
+        .btn-0{
+            border-radius: 10px !important;
+        }
+        .btn-ac{
+            background-color: rgba(56, 55, 55, 0.795);
+            border-radius: 10px !important;
+        }.icons{
+            justify-content: right;
+        }
+        .btn-history{
+            display: none;
+        }
+        .top-box-2 {
+            width: 100%;
+        }
+        .number-pad{
+            width: 100%;
+            position: static;
+            display: flex;
+        }
+        .numbers{
+            width: 60%;
+            gap: 5px;
+            padding: 5px !important;
+        }
+        .history{
+            position: static;
+            width: 40%;
+            height: 100%;
+            
+        }
+        .history-body{
+            height: 75%;
+            text-align:right;
+            padding: 20px;
+            line-height: 32px;
+        }
+        .history h6{
+            height: 8%;
+            font-size: 1em;
+            margin: 15px 0 0 5px;
+            color: grey;
+            text-align: left;
+        }
+        .history-body div p{
+            font-size: 1.5em;
+            color: gray;
+        }
+        .history-body div h5{
+            font-size: 2em;
+        }
+        .trash{
+            height: 8%;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        .trash i {
+            font-size: 1em;
+            background-color: #303030;
+            padding: 5px 10px;
+            border-radius: 50%;
+            color: rgba(245, 245, 245, 0.829);
+        }
+    }
+    
+}
