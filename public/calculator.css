@@ -187,6 +187,7 @@ main{
             margin-bottom: 15px;
             padding: 10px 0 10px 10px;
             line-height: 16px;
+            overflow: auto;
         }
         .trash {
             font-size: 26px;
@@ -259,6 +260,7 @@ main{
             text-align:right;
             padding: 20px;
             line-height: 32px;
+            overflow: auto;
         }
         .history h6{
             height: 8%;
