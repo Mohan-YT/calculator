@@ -122,7 +122,7 @@ main{
 
 }
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:425px) {
     .calculator{
         max-height: 100vh;
         overflow: hidden;
@@ -137,6 +137,14 @@ main{
             border-radius: 50%;
             font-size: 1.5em;
             padding: auto;
+        }
+        .btn:focus{
+            outline: none;
+            border: none;
+        }
+        .btn:active{
+            outline: none;
+            border: none;
         }
         .e-btn{
             color: white;
@@ -153,7 +161,7 @@ main{
         .number-pad {
             position: relative;
             width: 100%;
-            height: 60vh;
+            height: 65vh;
         }
         .history {
             position: absolute;
@@ -193,7 +201,7 @@ main{
         }
     }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 426px) {
     .calculator{
         .icons{
             justify-content: end !important;
