@@ -126,12 +126,12 @@ main{
 }
 @media screen and (max-width:576px) {
     .calculator{
-        height: 100vh;
-        overflow:hidden;
+        height: 100%;
+        overflow:auto;
         .display{
             border: none;
             text-align: end; 
-            height:15%; 
+            height:10%; 
         }
         .btn {
             min-width:2em;
@@ -143,7 +143,7 @@ main{
 
         }
         .icons{
-            height: 20%;
+            height: 10%;
         }
         .btn:focus,
         .btn:active,
@@ -160,7 +160,7 @@ main{
         }
         .btn-0{
             /* min-width:6.2em; */
-            margin: auto;
+            /* margin: auto; */
             padding: auto;
             border-radius: 50px !important;
         }
@@ -174,7 +174,7 @@ main{
         .number-pad {
             position: relative;
             width: 100%;
-            height: 85%;
+            height: 90%;
             margin:auto;
             padding: auto;
         }
@@ -183,7 +183,7 @@ main{
             justify-content: space-around;
             align-items: center; */
             text-align: center;
-            height: 80%;
+            height: 90%;
             padding: 10px;
             margin:auto;
         }
