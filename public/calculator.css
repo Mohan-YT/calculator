@@ -134,10 +134,11 @@ main{
             height:10vh; 
         }
         .btn {
-            width:3em;
-            height:3em;
+            min-width:3em;
+            min-height:3em;
             border-radius: 50%;
             font-size: 1.5em;
+            padding: auto;
             /* margin:auto; */
 
         }
@@ -164,14 +165,14 @@ main{
             background-color: rgba(56, 55, 55, 0.795);
             border-radius: 50px !important;
             min-width: 6.2em;
-            margin: auto;
+            /* margin: auto; */
             padding: auto;
         }
         .number-pad {
             position: relative;
             width: 100%;
-            height: 63vh;
-            margin:auto;
+            height: 60vh;
+            /* margin:auto; */
         }
         .numbers{
             display: flex;
