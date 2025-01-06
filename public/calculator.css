@@ -6,6 +6,8 @@
 }
 body{
     overflow: hidden;
+    height: 100vh;
+    padding: auto;
 }
 main{
     overflow: hidden;
@@ -17,7 +19,7 @@ main{
     padding: 0;
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content:space-around;
     padding-bottom: 5px;
 
 .display{
@@ -59,7 +61,7 @@ main{
                                     'btns-1 btns-2 btns-3 btns-plus'
                                     'btns-dot btns-0 btns-0 btns-e';
          
-    gap: 4px;
+    gap: 5px;
     padding:5px;
     margin-bottom: 5px;
     height: 100%;
@@ -131,7 +133,7 @@ main{
         .display{
             border: none;
             text-align: end; 
-            height:10%; 
+            height:5%; 
         }
         .btn {
             min-width:2em;
@@ -139,6 +141,7 @@ main{
             border-radius: 50%;
             font-size: 1.5em;
             padding: auto;
+            margin-bottom: 5px;
             /* margin:auto; */
 
         }
