@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: cursive;
 }
+body{
+    overflow: hidden;
+}
 main{
     overflow: hidden;
 
@@ -82,7 +85,7 @@ main{
 
 .n-btn{
     color: white;
-    background-color: rgba(16, 16, 16, 0.712);
+    background-color: rgba(28, 28, 28, 0.712);
     padding: 0 auto;
 }
 .o-btn{
@@ -119,26 +122,24 @@ main{
     background-color: transparent;
 }
     
-
 }
 }
 @media screen and (max-width:576px) {
     .calculator{
-        min-height: 100%;
-        overflow: hidden;
+        /* height: 100vh; */
+        overflow:hidden;
         .display{
             border: none;
             text-align: end; 
-            height:15vh; 
+            height:10vh; 
         }
         .btn {
-            min-width: 1.5em;
-            min-height: 1.3em;
-            max-width: 10em;
-            max-height: 6em;
+            width:3em;
+            height:3em;
             border-radius: 50%;
             font-size: 1.5em;
-            padding: auto;
+            /* margin:auto; */
+
         }
         .btn:focus,
         .btn:active,
@@ -154,19 +155,33 @@ main{
             border-radius: 50%;
         }
         .btn-0{
+            /* min-width: 3em; */
+            min-width:6.2em;
+            margin: auto;
+            padding: auto;
             border-radius: 50px !important;
         }
         .btn-ac{
             background-color: rgba(56, 55, 55, 0.795);
             border-radius: 50px !important;
+            min-width: 6.2em;
+            margin: auto;
+            padding: auto;
         }
         .number-pad {
             position: relative;
             width: 100%;
-            height: 65vh;
+            height: 63vh;
+            margin:auto;
         }
         .numbers{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            /* text-align: center; */
             height: 80%;
+            padding: 5px;
+            /* margin:auto; */
         }
         .history {
             position: absolute;
