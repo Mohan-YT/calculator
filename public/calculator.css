@@ -133,7 +133,7 @@ main{
         .display{
             border: none;
             text-align: end; 
-            height:5%; 
+            height:auto !important; 
         }
         .btn {
             min-width:2em;
@@ -146,7 +146,7 @@ main{
 
         }
         .icons{
-            height: 10%;
+            height:auto !important;
         }
         .btn:focus,
         .btn:active,
