@@ -137,7 +137,7 @@ main{
             border: none;
             text-align: end; 
             height:auto !important; 
-            margin:0.8em 0 1em;
+            margin:0.1em 0 0.7em;
         }
         .btn {
             min-width:2.3em;
