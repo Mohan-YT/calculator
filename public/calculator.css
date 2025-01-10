@@ -133,7 +133,7 @@ main{
     .calculator{
         height:100vh;
         overflow:hidden;
-        margin: auto !important;
+        margin: 0 0 0.5em !important;
         .display{
             border: none;
             text-align: end; 
@@ -188,7 +188,7 @@ main{
             /* text-align: center; */
             height:100%;
             padding: 1.2em  1em 3em;
-            margin:0.5em 0 0.5em;
+            margin:0.5em 0 0.7em;
         }
         .history {
             position: absolute;
