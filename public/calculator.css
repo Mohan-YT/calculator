@@ -132,7 +132,7 @@ main{
     }
     .calculator{
         height:fit-content;
-        overflow:auto;
+        overflow:hidden;
         .display{
             border: none;
             text-align: end; 
