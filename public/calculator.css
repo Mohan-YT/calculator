@@ -137,7 +137,7 @@ main{
         .display{
             border: none;
             text-align: end; 
-            height:8vh !important; 
+            height:6vh !important; 
             margin:0;
         }
         .btn {
