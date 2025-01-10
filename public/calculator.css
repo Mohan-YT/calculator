@@ -19,7 +19,7 @@ main{
     padding: 0;
     display: flex;
     flex-direction: column;
-    justify-content:end;
+    justify-content:start;
     padding-bottom: 5px;
 
 .display{
@@ -128,7 +128,7 @@ main{
 }
 @media screen and (max-width:576px) {
     body{
-        overflow: auto;
+        overflow: hidden;
     }
     .calculator{
         height:fit-content;
@@ -138,6 +138,7 @@ main{
             text-align: end; 
             height:auto !important; 
             margin: 0;
+            padding-bottom: 1em;
         }
         .btn {
             min-width:2.3em;
