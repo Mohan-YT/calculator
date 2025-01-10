@@ -137,8 +137,8 @@ main{
         .display{
             border: none;
             text-align: end; 
-            height:10vh !important; 
-            margin:0.1em 0 0.7em;
+            height:8vh !important; 
+            margin:0;
         }
         .btn {
             min-width:2.5em;
