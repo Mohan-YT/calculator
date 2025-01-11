@@ -229,6 +229,12 @@ main{
     }
 }
 @media screen and (min-width: 576px) {
+    body{
+        overflow: auto;
+    }
+    main{
+        overflow: auto;
+    }
     .calculator{
         .icons{
             justify-content: end !important;
