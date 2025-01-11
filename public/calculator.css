@@ -147,7 +147,7 @@ main{
             border-radius: 50%;
             font-size: 1.7em;
             padding: auto;
-            margin:0.1rem 0.2rem 0.20em;
+            margin:2% 2% 10%;
 
         }
         .icons{
@@ -171,16 +171,12 @@ main{
             border-radius: 50%;
         }
         .btn-0{
-            /* min-width:6.2em; */
-            /* margin: auto; */
             padding: auto;
             border-radius: 50px !important;
         }
         .btn-ac{
             background-color: rgba(56, 55, 55, 0.795);
             border-radius: 50px !important;
-            /* min-width: 6.2em; */
-            /* margin: auto; */
             padding: auto;
         }
         .number-pad {
@@ -189,7 +185,6 @@ main{
             height:80vh;
         }
         .numbers{
-            /* text-align: center; */
             height:100%;
             padding: 1.2em  1em 3em;
             margin:0.5em 0 0.9em;
@@ -198,7 +193,7 @@ main{
             position: absolute;
             background-color: black;
             color: white;
-            width: 75%;
+            width: 74%;
             height: 100%;
             top: 0;
             left: -100%;
