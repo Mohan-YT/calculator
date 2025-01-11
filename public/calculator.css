@@ -131,9 +131,9 @@ main{
         overflow: hidden;
     }
     .calculator{
-        justify-content: space-evenly !important;
+        justify-content: center !important;
         height:100vh;
-        overflow:hidden;
+        overflow:visible;
         margin: 0 0 0.5em !important;
         .display{
             border: none;
