@@ -147,7 +147,7 @@ main{
             border-radius: 50%;
             font-size: 1.7em;
             padding: auto;
-            margin:2% 2% 10%;
+            margin:2% 2% 12%;
 
         }
         .icons{
@@ -186,8 +186,8 @@ main{
         }
         .numbers{
             height:100%;
-            padding: 1.2em  1em 3em;
-            margin:0.5em 0 0.9em;
+            padding:2% 1%;
+            margin:3% 0.5% ;
         }
         .history {
             position: absolute;
