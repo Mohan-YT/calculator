@@ -131,13 +131,14 @@ main{
         overflow: hidden;
     }
     .calculator{
+        justify-content: space-evenly !important;
         height:100vh;
         overflow:hidden;
         margin: 0 0 0.5em !important;
         .display{
             border: none;
             text-align: end; 
-            height:6vh !important; 
+            height:auto !important; 
             margin:0;
         }
         .btn {
@@ -146,12 +147,15 @@ main{
             border-radius: 50%;
             font-size: 1.7em;
             padding: auto;
-            margin:0.1rem 0.2rem 0.17em;
+            margin:0.1rem 0.2rem 0.20em;
 
         }
         .icons{
-            height:8vh !important;
+            height:7.5vh !important;
             margin-bottom: 0.5em;
+        }
+        .icons i{
+            font-size: 26px;
         }
         .btn:focus,
         .btn:active,
@@ -188,7 +192,7 @@ main{
             /* text-align: center; */
             height:100%;
             padding: 1.2em  1em 3em;
-            margin:0.5em 0 0.7em;
+            margin:0.5em 0 0.9em;
         }
         .history {
             position: absolute;
